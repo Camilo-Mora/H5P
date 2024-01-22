@@ -15,17 +15,17 @@ For instance: 08_experiment-8.h5p  should be renamed to 08_experiment-8.rar
 
 Step 3. use any available siftware and unzip the rar file.
 
-Step 4. Place all the full unzipped folder inside the H5P folder in the repository you createdd.
+Step 4. Place all the full unzipped folder inside the H5P folder in the repository (note the H5P folder in this repository. in there is where your own unzipped h5p should be located.).
 
 Step 5. In your HTML code, add the following code in the position where you want the H5P tool.
 
 
 ```html
-<div id="h5p-container-8"></div>
+<div id="h5p-container-8"></div> // YOUR H5P FILE (THIS IS A FOLDER PATH)
 <script>
   (function() {
     let h5pContainer = document.getElementById("h5p-container-8"); // div tag ID
-    let h5pJsonPath = 'H5P/08_experiment-8'; // H5P data directory path
+    let h5pJsonPath = 'H5P/08_experiment-8'; // YOUR H5P FILE (THIS IS A FOLDER PATH)
 
     if (!document.getElementById('h5p-bundle-js')) {
       let script = document.createElement('script');
@@ -52,10 +52,7 @@ Step 6. In the code above replace the names of the H5P files for yours..
 ![Like](https://github.com/CleanLake412/H5P_Standalone/blob/master/howto/howto.png?raw=true)
 
 
-Please pay attention to set variables h5pContainer, h5pJsonPath.
--  h5pContainer can be set as "h5p-container-" + h5p's frame number : h5p-container-8, h5p-container-9 ...
-   This should be same as div tag's id attribute.
-- h5pJsonPath should be set path of extracted H5P directory following upper instructions.
+
 
 **All done !**
 
