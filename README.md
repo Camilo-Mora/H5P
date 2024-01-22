@@ -7,13 +7,13 @@ There is a [code](https://github.com/tunapanda/h5p-standalone) developed to make
 
 Here we provide a working example on how to turn H5P tools fully automonous in Github. Credit to the creators of the [code](https://github.com/tunapanda/h5p-standalone) and to [Daisuke Horita](https://github.com/CleanLake412) for working on the implementation.
 
-**Step 1.** Copy all the files in this repository in your own.
+**Step 1.** Copy the folders "H5P" and  "libs/h5p" in this repository in your own. 
 
 **Step 2.** Take your H5P file and change the extension from .h5p to .rar
 
        For instance: 08_experiment-8.h5p  should be renamed to 08_experiment-8.rar
 
-**Step 3.** use any available siftware and unzip the rar file.
+**Step 3.** use any available software and unzip the rar file.
 
 **Step 4.** Place all the full unzipped folder inside the H5P folder in the repository (note the H5P folder in this repository. in there is where your own unzipped h5p should be located.).
 
@@ -56,7 +56,7 @@ Step 6. In the code above replace the names of the H5P files for yours..
 
 **All done !**
 
-
+You can check the functional demo from this page [HERE](https://camilo-mora.github.io/H5P/)
 
 	
 
